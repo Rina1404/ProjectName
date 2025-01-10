@@ -1,0 +1,14 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2
+      author: timazay
+      changes:
+        - insert:
+            tableName: Students
+            columns:
+              - column:
+                  name: id
+                  value: 1
+              - column:
+                  name: full_name_student
+                  value: "Иванов Иван Иванович "
